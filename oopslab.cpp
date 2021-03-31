@@ -70,6 +70,14 @@ private:
 string name;
 string address;
 public:
+  void setName(string X)
+  {
+    name=X;
+  }
+string getName()
+{
+  return name;
+}
 account ac; // public because it is represented as public in class diagram
 customer(string n, string a, account acc){ // Parameterized Constructor
 name= n;
