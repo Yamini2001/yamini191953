@@ -99,7 +99,7 @@ cout << "\n Account No. "<<ac.getAccountNo();
 
 main(){
 cout << "..........Displaying Customer Account Information........."<<endl<<endl;
-account myaccount(224757,23000,"PNB",12.5,"PUNB2345",4946); // Creating an account Obj
+account myaccount(rand(),23000,"PNB",12.5,"PUNB2345",4946); // Creating an account Obj
 customer DD("XYZ","Programming island", myaccount); // Creating an customer Obj
 DD.display();
 
